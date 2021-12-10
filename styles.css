@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --black:#2c2c54;
+    --orange:#ff9f1a;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top:6rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background:#c0c0c0;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+    font-size: 3rem;
+    color:var(--black);
+}
+
+header .navbar a{
+    font-size: 1.5rem;
+    color:var(--black);
+    margin: 0 1rem;
+}
+
+header .navbar a:hover{
+    color:var(--orange);
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color:var(--black);
+    margin-left:1.5rem;
+}
+
+header .icons a:hover{
+    color:var(--orange);
+}
+
+#menu-bar{
+    font-size: 1.5rem;
+    padding: .5rem 1.5rem;
+    border:.1rem solid var(--black);
+    color:var(--black);
+    border-radius: .3rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+.Home{
+    padding:0;
+    position: relative;
+}
+
+.Home .image .glove img{
+    position: relative;
+    top: 250px;
+    left: 1400px;
+    width: 500px;
+    height: 500px;
+}
+
+.Home .text .span span{
+    font-size: 6rem;
+    color:#FFF;
+    padding-top: 50px;
+    position: absolute;
+    top: 190px;
+    right: 400px;
+}
+
+.Home .text .span h3{
+    font-size: 3.5rem;
+    color:var(--white);
+    position: absolute;
+    padding-top:80px;
+    top: 250px;
+    right: 400px;
+}
+
+.Home .text .span p{
+    font-size: 5rem;
+    color:#fff;
+    position: absolute;
+    padding: 5px;
+    top: 380px;
+    right: 30px;
+    left:100px;
+    background: black;
+    opacity: 70%;
+}
+
+.Product .text .span span{
+    font-size: 6rem;
+    color:#fff;
+    padding-top: 50px;
+    position: absolute;
+    top: 100px;
+    right: -300px;
+}
+
+.Product .text .span h3{
+    font-size: 3.5rem;
+    color:var(--white);
+    position: absolute;
+    padding-top:80px;
+    top: 150px;
+    right: -150px;
+}
+
+.Product .text .span p{
+    font-size: 3.9rem;
+    color:#FFf;
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    top:300px;
+    right: -500px;
+    left:500px;
+    background: black;
+    opacity: 70%;
+}
+
+.Product .btn{
+    padding:-50px;
+    position: relative;
+    font-size:50px;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 80px;
+    top: 400px;
+    right: -500px;
+    left: 350px;
+}
+
+.Patent .text .span span{
+    font-size: 6rem;
+    color:#fff;
+    padding-top: 50px;
+    position: absolute;
+    top: 100px;
+    right: -300px;
+}
+
+.Patent .text .span h3{
+    font-size: 3.5rem;
+    color:var(--white);
+    position: absolute;
+    padding-top:80px;
+    top: 150px;
+    right: -280px;
+}
+
+.Patent .text .span p{
+    font-size: 4rem;
+    color:#fff;
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    top:300px;
+    right: -450px;
+    left:550px;
+    background: black;
+    opacity: 70%;
+}
+
+.PS .text .span span{
+    font-size: 6rem;
+    color:#fff;
+    padding-top: 50px;
+    position: absolute;
+    top: 100px;
+    right: -350px;
+}
+
+.PS .text .span p{
+    font-size: 3.9rem;
+    color:#fff;
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    top:300px;
+    right: -500px;
+    left:500px;
+    background: black;
+    opacity: 70%;
+}
+
+.Phase .image .gantt img{
+    position: relative;
+    top: 250px;
+    right: -350px;
+}
+
+.PGE .image .gantt img{
+    position: relative;
+    top: 250px;
+    right: -350px;
+}
+
+.About .image .pic img{
+    position: relative;
+    top: 250px;
+    left: 1400px;
+    height: 500px;
+}
+
+.About .text .span span{
+    font-size: 6rem;
+    color:#FFF;
+    padding-top: 50px;
+    position: absolute;
+    top: 190px;
+    right: 540px;
+}
+
+.About .text .span h3{
+    font-size: 4rem;
+    color:var(--white);
+    position: absolute;
+    padding-top:80px;
+    top: 250px;
+    right: 590px;
+}
+
+.About .text .span p{
+    font-size: 5rem;
+    color:#fff;
+    position: absolute;
+    padding: 5px;
+    top: 380px;
+    right: 30px;
+    left:100px;
+    background: black;
+    opacity: 70%;
+}
+
+/* media queries */
+
+@media (max-width:999px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:999px){
+
+    #menu-bar{
+        display: block;
+    }
+
+    header .navbar{
+       position: absolute; 
+       top:100%; left:-120%;
+       width:100%;
+       background:#eee;
+       border-top: 1rem solid rgba(0,0,0,.1);
+    }
+
+    header .navbar.active{
+        left:0;
+    }
+    
+    header .navbar a{
+        font-size: 2rem;
+        background: #fff;
+        border:.1rem solid var(--black);
+        border-radius: .5rem;
+        padding:1rem;
+        margin:1.5rem;
+        display: block;
+        text-align: center;
+    }
+
+    .Home{
+        padding:0;
+        position: relative;
+    
+    }
+    
+    .Home .image .glove img{
+        position: absolute;
+        top: 250px;
+        left: 400px;
+        width: 350px;
+        height: 350px;
+    }
+    
+    .Home .text .span span{
+        font-size: 6rem;
+        color:var(--white);
+        padding-top: 50px;
+        position: absolute;
+      top: 100px;
+      right: 430px;
+    }
+    
+    .Home .text .span h3{
+        font-size: 2.7rem;
+        color:var(--white);
+        position: absolute;
+      top: 170px;
+      right: 500px;
+    }
+    
+    .Home .text .span p{
+        font-size: 4rem;
+        color:#FFf;
+        padding:1rem 0;
+        position: absolute;
+        top: 280px;
+        right: 450px;
+        left: 20px;
+    }
+
+    .Product .text .span span{
+        font-size: 6rem;
+        color:#fff;
+        padding-top: 50px;
+        position: absolute;
+        top: 100px;
+        right: 150px;
+    }
+    
+    .Product .text .span h3{
+        font-size: 3.5rem;
+        color:var(--white);
+        position: absolute;
+        padding-top:80px;
+        top: 150px;
+        right: 290px;
+    }
+    
+    .Product .text .span p{
+        font-size: 3.5rem;
+        color:#fff;
+        position: absolute;
+        padding: 5px;
+        top:300px;
+        right: 50px;
+        left:50px;
+    }
+    
+    .Product .btn{
+        padding:-50px;
+        position: relative;
+        font-size:30px;
+        color: #fff;
+        cursor: pointer;
+        padding-top: -30px;
+        top: 0px;
+        right: 300px;
+        left: 120px;
+        bottom: -500px;
+    }
+    
+    .Patent .text .span span{
+        font-size: 6rem;
+        color:#fff;
+        padding-top: 50px;
+        position: absolute;
+        top: 100px;
+        right: 150px;
+    }
+    
+    .Patent .text .span h3{
+        font-size: 3.5rem;
+        color:var(--white);
+        position: absolute;
+        padding-top:80px;
+        top: 150px;
+        right: 170px;
+
+    }
+    
+    .Patent .text .span p{
+        font-size: 4rem;
+        color:#fff;
+        position: absolute;
+        align-items: center;
+        padding: 5px;
+        top:300px;
+        right: 50px;
+        left:50px;
+    }
+    
+    .PS .text .span span{
+        font-size: 6rem;
+        color:#fff;
+        padding-top: 50px;
+        position: absolute;
+        top: 100px;
+        right: 150px;
+    }
+    
+    .PS .text .span p{
+        font-size: 3.9rem;
+        color:#fff;
+        position: absolute;
+        padding: 5px;
+        top:300px;
+        right: 50px;
+        left:50px;
+    }
+    .Phase .image .gantt img{
+        position: relative;
+        top: 250px;
+        right: 0px;
+        width: 700px;
+    }
+
+    .PGE .image .gantt img{
+        position: relative;
+        top: 250px;
+        right: 0px;
+        width: 700px;
+    }
+    
+    .About .image .pic img{
+        position: relative;
+        top: 250px;
+        left: 350px;
+        height: 500px;
+    }
+    
+    .About .text .span span{
+        font-size: 6rem;
+        color:#FFF;
+        padding-top: 50px;
+        position: absolute;
+        top: 190px;
+        right: 450px;
+    }
+    
+    .About .text .span h3{
+        font-size: 4rem;
+        color:var(--white);
+        position: absolute;
+        padding-top:80px;
+        top: 250px;
+        right: 500px;
+    }
+    
+    .About .text .span p{
+        font-size: 3.5rem;
+        color:#fff;
+        position: absolute;
+        padding: 5px;
+        top: 400px;
+        right:400px;
+        background: black;
+        opacity: 70%;
+    }
+
+    body{
+        background-image: url("Draw_TabMobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30rem;
+        position: relative;
+    }
+}
+
+body{
+    height: 90rem;
+    width: 90rem;
+    background-image: url("Draw_Tab.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200rem;
+    position: relative;
+}
